@@ -186,9 +186,7 @@ All AI-generated code was **reviewed, modified, and validated manually** to ensu
 
 For commits involving AI assistance, the following format was used:
 
-```text
-Co-authored-by: ChatGPT <AI@users.noreply.github.com>
-```
+
 ## 🎯 Future Improvements
 - Payment gateway integration
 - Order status tracking (Delivered / Cancelled)
