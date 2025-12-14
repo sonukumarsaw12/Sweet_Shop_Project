@@ -5,9 +5,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "tsx watch src/server.ts",
-    "test": "jest"
-  },
+  "dev": "tsx watch src/server.ts",
+  "start": "node dist/server.js",
+  "build": "tsc",
+  "test": "jest"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
