@@ -1,4 +1,4 @@
-<img width="2677" height="1335" alt="Screenshot 2025-12-14 084543" src="https://github.com/user-attachments/assets/c295bde8-b47b-4a5e-a103-10b5025a9372" /><img width="2862" height="1625" alt="Screenshot 2025-12-14 084317" src="https://github.com/user-attachments/assets/7a18e776-bf6b-4bda-b76e-ef274c4adb30" /># 🍬 Sweet Shop Project
+# 🍬 Sweet Shop Project
 
 A full-stack **Sweet Shop Management System** built using modern web technologies and following **Test-Driven Development (TDD)** principles.  
 The application supports **user authentication, admin inventory management, shopping cart, and order tracking** with a clean and responsive UI.
@@ -90,26 +90,26 @@ POST /api/sweets/:id/restock   (Admin only)
 Screenshots of the following are included in the repository:
 
 - Home Page (Sweet Listing)
-- <img width="2862" height="1625" alt="Screenshot 2025-12-14 084317" src="https://github.com/user-attachments/assets/b6f3b343-73e5-4910-85b8-20f7acc70097" />
+<img width="2862" height="1625" alt="Screenshot 2025-12-14 084317" src="https://github.com/user-attachments/assets/b6f3b343-73e5-4910-85b8-20f7acc70097" />
 
 - User Registration & Login
-- <img width="2561" height="1374" alt="Screenshot 2025-12-14 084329" src="https://github.com/user-attachments/assets/fde031c0-9c26-40b2-89f2-09451f141a80" />
-- <img width="2060" height="1217" alt="Screenshot 2025-12-14 084338" src="https://github.com/user-attachments/assets/7f8ff54f-bbde-4d1c-94f8-99a9511dfaef" />
+<img width="2561" height="1374" alt="Screenshot 2025-12-14 084329" src="https://github.com/user-attachments/assets/fde031c0-9c26-40b2-89f2-09451f141a80" />
+<img width="2060" height="1217" alt="Screenshot 2025-12-14 084338" src="https://github.com/user-attachments/assets/7f8ff54f-bbde-4d1c-94f8-99a9511dfaef" />
 - Admin Login
 <img width="2208" height="1315" alt="Screenshot 2025-12-14 084351" src="https://github.com/user-attachments/assets/1450748b-dfb1-427b-a4b8-e991b0822416" />
 - Admin Dashboard
-- <img width="2732" height="1456" alt="Screenshot 2025-12-14 084437" src="https://github.com/user-attachments/assets/1c9e2915-02b1-4ca8-8a45-78a7489edc24" />
+<img width="2732" height="1456" alt="Screenshot 2025-12-14 084437" src="https://github.com/user-attachments/assets/1c9e2915-02b1-4ca8-8a45-78a7489edc24" />
 
 - Add / Edit / Delete Sweets
-- <img width="2712" height="1098" alt="Screenshot 2025-12-14 084456" src="https://github.com/user-attachments/assets/8a423a52-b73c-4239-b2cf-cdf6b63dedcf" />
+<img width="2712" height="1098" alt="Screenshot 2025-12-14 084456" src="https://github.com/user-attachments/assets/8a423a52-b73c-4239-b2cf-cdf6b63dedcf" />
 
 - Shopping Cart
-- <img width="2677" height="1335" alt="Screenshot 2025-12-14 084543" src="https://github.com/user-attachments/assets/fd6dfa4a-03cd-4057-94de-b75406348e94" />
+<img width="2677" height="1335" alt="Screenshot 2025-12-14 084543" src="https://github.com/user-attachments/assets/fd6dfa4a-03cd-4057-94de-b75406348e94" />
 <img width="2647" height="1281" alt="Screenshot 2025-12-14 084607" src="https://github.com/user-attachments/assets/46ed0bff-c42b-4550-a6e6-b241431c324c" />
 
-- 
+ 
 - Order History
-- <img width="2636" height="1203" alt="Screenshot 2025-12-14 084622" src="https://github.com/user-attachments/assets/19bfb8b9-fb18-4f0b-b0c1-87a356d66e36" />
+<img width="2636" height="1203" alt="Screenshot 2025-12-14 084622" src="https://github.com/user-attachments/assets/19bfb8b9-fb18-4f0b-b0c1-87a356d66e36" />
 
 
 
