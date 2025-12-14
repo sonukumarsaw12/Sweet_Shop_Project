@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+    --color-gray-50: #f9fafb;
+    --color-slate-900: #0f172a;
+    --color-gray-900: #111827;
+    --color-white: #ffffff;
+}
+
+body {
+    background-color: var(--color-gray-50);
+    color: var(--color-gray-900);
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+}
+
+:root.dark body {
+    background-color: var(--color-slate-900);
+    color: var(--color-white);
+}
