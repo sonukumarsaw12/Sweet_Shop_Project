@@ -1,7 +1,7 @@
 import { Trash2 } from "lucide-react";
 import { useCart } from "../context/CartContext";
 import { Link, useNavigate } from "react-router-dom";
-import api from "../api/api";
+
 
 export default function CartPage() {
     const { cartItems, removeFromCart, cartTotal, placeOrder } = useCart();

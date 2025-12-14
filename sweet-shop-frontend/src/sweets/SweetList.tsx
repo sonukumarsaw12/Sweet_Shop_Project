@@ -1,6 +1,6 @@
 import api from "../api/api";
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+
 import AdminControls from "./AdminControls";
 import { useCart } from "../context/CartContext";
 
@@ -32,24 +32,9 @@ export default function SweetList({ searchTerm, onClearSearch }: { searchTerm: s
     api.get("/sweets").then((res) => setSweets(res.data));
   };
 
-  const navigate = useNavigate();
+  
 
-  const buySweet = async (id: string) => {
-    const token = localStorage.getItem("token");
-    if (!token) {
-      alert("Please login to buy sweets!");
-      navigate("/login");
-      return;
-    }
-
-    try {
-      await api.post(`/sweets/${id}/purchase`);
-      fetchSweets(); // Refresh
-      alert("Purchase successful!");
-    } catch (error) {
-      alert("Failed to purchase");
-    }
-  };
+ 
 
   const deleteSweet = (id: string) => {
     setDeletingSweetId(id);
