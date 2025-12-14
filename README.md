@@ -4,6 +4,8 @@ A full-stack **Sweet Shop Management System** built using modern web technologie
 The application supports **user authentication, admin inventory management, shopping cart, and order tracking** with a clean and responsive UI.
 
 🔗 **Live Demo:** https://sweet-shop-sk.vercel.app/
+   **Admin Panel ID:** admin@sweetshop.com
+   **Admin Password:** admin123
 
 ---
 
