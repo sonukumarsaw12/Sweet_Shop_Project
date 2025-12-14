@@ -4,12 +4,21 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+<<<<<<< HEAD
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "build": "tsc",
     "start": "node dist/server.js",
     "test": "jest"
   },
+=======
+   "scripts": {
+  "dev": "tsx watch src/server.ts",
+  "build": "tsc",
+  "start": "node dist/server.js",
+  "test": "jest"
+},
+>>>>>>> e068a0bea4e54002484979666381f7eb4225263a
   "keywords": [],
   "author": "",
   "license": "ISC",
