@@ -27,9 +27,9 @@ export default function Header({
 
     return (
         <header className="bg-white/95 backdrop-blur-md sticky top-0 z-50 shadow-sm border-b border-gray-100">
-            <div className="container mx-auto px-4 py-3 flex items-center justify-between gap-6">
+            <div className="container mx-auto px-4 py-3 flex items-center justify-between gap-2 md:gap-6">
                 {/* Logo */}
-                <Link to="/" className="text-2xl font-black italic flex items-center gap-1 group">
+                <Link to="/" className="text-xl md:text-2xl font-black italic flex items-center gap-1 group">
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-600 group-hover:from-pink-600 group-hover:to-purple-700 transition-all">Sweet</span>
                     <span className="text-gray-800">Shop</span>
                     <span className="text-xs bg-black text-white px-1.5 py-0.5 rounded-full not-italic -mt-4 ml-0.5">Plus</span>
@@ -119,16 +119,16 @@ export default function Header({
                             )}
                         </div>
                     ) : (
-                        <div className="flex items-center gap-3">
+                        <div className="flex items-center gap-2 md:gap-3">
                             <Link
                                 to="/login"
-                                className="px-3 py-1.5 md:px-5 md:py-2 rounded-full text-pink-600 font-bold hover:bg-pink-50 transition-all text-sm md:text-base"
+                                className="px-2 py-1.5 md:px-5 md:py-2 rounded-full text-pink-600 font-bold hover:bg-pink-50 transition-all text-sm md:text-base whitespace-nowrap"
                             >
                                 Login
                             </Link>
                             <Link
                                 to="/register"
-                                className="px-3 py-1.5 md:px-5 md:py-2 rounded-full bg-gray-900 text-white font-bold hover:bg-black shadow-md hover:shadow-lg transition-all text-sm md:text-base"
+                                className="px-2 py-1.5 md:px-5 md:py-2 rounded-full bg-gray-900 text-white font-bold hover:bg-black shadow-md hover:shadow-lg transition-all text-sm md:text-base whitespace-nowrap"
                             >
                                 Sign Up
                             </Link>
